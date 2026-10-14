@@ -1,0 +1,9 @@
+scenario,algorithm,ticks,survivors_started,rescued,rescue_rate_percent,infected,planner_calls,planning_success_rate_percent,pathfinding_nodes_expanded,pathfinding_time_ms,mean_route_length,alpha_beta_nodes,alpha_beta_prunes,distance_wait_cost
+1. Normal Escape,A*,113,3,3,100.0,0,285,100.0,921,468.219,9.0391,5603,5866,99.678
+2. Close Encounter,A*,139,3,3,100.0,0,349,100.0,907,560.5,8.3762,10300,10150,121.798
+3. Resource Detour,A*,213,3,3,100.0,0,376,100.0,1306,569.826,7.6501,10058,9460,120.193
+4. Emergency Outbreak,A*,117,3,1,33.33,2,257,100.0,767,426.112,8.5254,10946,11962,90.274
+1. Normal Escape,GBFS,157,3,3,100.0,0,293,100.0,759,478.814,8.771,7811,10165,101.761
+2. Close Encounter,GBFS,130,3,3,100.0,0,366,100.0,975,584.84,9.3297,9408,7317,123.635
+3. Resource Detour,GBFS,181,3,2,66.67,1,388,100.0,1154,588.994,10.1349,13217,9571,138.12
+4. Emergency Outbreak,GBFS,245,3,2,66.67,1,519,100.0,1180,875.778,7.707,21799,17584,196.36
